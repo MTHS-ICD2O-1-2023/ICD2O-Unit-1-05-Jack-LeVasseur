@@ -1,7 +1,11 @@
-Created By Jack LeVasseur Created on: Feb 26,
-2024 * This file contains the CSS for index .html */ .mdl-ripple {
-  background: #6b6666;
-  opacity: 0.001;
+/* Created by: Jack LeVasseur
+* Created on: Febuary 5 2024
+* This file contains the CSS for index.html
+*/
+
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
 }
 
 .mdl-layout__content {
@@ -10,21 +14,16 @@ Created By Jack LeVasseur Created on: Feb 26,
   padding-top: 15pt;
 }
 
-
-.mdl-textfield {
-  color: rgb(0, 0, 0);
+.mdl-textfield__error {
+  color: rgb(39, 137, 229);
 }
 
-
-page-content {
-  color: rgb(0, 0, 0);
+.page-content {
+  color: white;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.00rem;
+  font-size: 1.25rem;
 }
-
-
-
 
 body {
-  background-color: rgb(99, 98, 98);
+  background-color: cornflowerblue;
 }
