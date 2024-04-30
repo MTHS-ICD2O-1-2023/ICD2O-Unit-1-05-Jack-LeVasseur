@@ -1,9 +1,9 @@
 /* Created by: Jack LeVasseur
-* Created on: Febuary 5 2024
+* Created on: Febuary 6 2024
 * This file contains the CSS for index.html
 */
 
-.mdl-layout__header-row {
+mdl-layout__header-row {
   justify-content: center;
   padding: 0;
 }
@@ -15,7 +15,7 @@
 }
 
 .mdl-textfield__error {
-  color: rgb(39, 137, 229);
+  color: rgb(35, 40, 184);
 }
 
 .page-content {
@@ -25,5 +25,5 @@
 }
 
 body {
-  background-color: cornflowerblue;
+  background-color: rgb(243, 16, 213);
 }
